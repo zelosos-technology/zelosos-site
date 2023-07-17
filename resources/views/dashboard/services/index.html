@@ -1,0 +1,30 @@
+<form action="{{ route('') }}"method="POST">
+    @csrf
+    <input type="">
+
+</form>
+
+
+<div>
+    <small class="mb-4 text-gray-500 ">Nota: selecione uma categoria para o novo serviço </small>
+    <select name="parent-id" id="" class="w-auto mb-6 border-indigo-500 b">
+        <option value=""> Escolha este</option>
+    </select>
+</div>
+
+<img src="../../../../public/assets/img/favicon.png" alt="logo"/>
+
+
+<div class="spacer-x-4">
+    <x-nav-link href="{{ route('dashboard.index') }}" :active="request()->routeIs('dashboard.index')">
+        {{ __('Dashboard') }}
+    </x-nav-link>
+
+    <x-nav-link href="{{ route('dashboard.index') }}" :active="request()->routeIs('dashboard.index')">
+        {{ __('Dashboard') }}
+    </x-nav-link>
+
+    <x-nav-link href="{{ route('dashboard.index') }}" :active="request()->routeIs('dashboard.index')">
+        {{ __('Dashboard') }}
+    </x-nav-link>
+</div>

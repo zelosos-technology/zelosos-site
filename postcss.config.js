@@ -4,3 +4,4 @@ export default {
         autoprefixer: {},
     },
 };
+//git config --global user.name "Your Name"
